@@ -1,7 +1,18 @@
 package com.synaptik.javaee.data;
 
-public class Todo {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.io.Serializable;
+
+@Entity
+public class Todo implements Serializable {
+	@Id
+	@GeneratedValue
 	private Long id;
+
+	@Column
 	private String description;
 
 	public Long getId() {
