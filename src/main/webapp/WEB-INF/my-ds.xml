@@ -1,0 +1,10 @@
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:/TodoDS" pool-name="todoDS">
+        <driver>todo.war_com.mysql.cj.jdbc.Driver_8_0</driver>
+        <connection-url>jdbc:mysql://10.0.0.128:3306/todo?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC</connection-url>
+        <security>
+            <user-name>todoadmin</user-name>
+            <password>todopassword</password>
+        </security>
+    </datasource>
+</datasources>

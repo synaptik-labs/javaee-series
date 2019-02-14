@@ -5,7 +5,6 @@
 	<persistence-unit name="TodoPU">
 		<jta-data-source>java:/TodoDS</jta-data-source>
 		<properties>
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
 		</properties>
 	</persistence-unit>
 </persistence>
