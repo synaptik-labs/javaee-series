@@ -1,6 +1,6 @@
 package com.synaptik.javaee;
 
-import com.synaptik.javaee.data.Todo;
+import com.synaptik.javaee.entities.Todo;
 
 import java.util.List;
 

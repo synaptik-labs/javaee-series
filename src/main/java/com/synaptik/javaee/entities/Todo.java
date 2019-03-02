@@ -1,4 +1,4 @@
-package com.synaptik.javaee.data;
+package com.synaptik.javaee.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;

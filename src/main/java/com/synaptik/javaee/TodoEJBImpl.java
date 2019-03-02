@@ -1,6 +1,6 @@
 package com.synaptik.javaee;
 
-import com.synaptik.javaee.data.Todo;
+import com.synaptik.javaee.entities.Todo;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
