@@ -75,6 +75,14 @@
 					</replacements>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<version>5.2.4</version>
+				<configuration>
+					<baselineOnMigrate>true</baselineOnMigrate>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -101,6 +109,10 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
+		<flyway.url>jdbc:mysql://10.0.0.128:3306/todo?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC</flyway.url>
+		<flyway.user>todoadmin</flyway.user>
+		<flyway.password>todopassword</flyway.password>
+
 	</properties>
 
 </project>

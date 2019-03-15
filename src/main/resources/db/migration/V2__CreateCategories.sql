@@ -1,0 +1,5 @@
+CREATE TABLE Categories (
+    id INT NOT NULL AUTO_INCREMENT,
+    label NVARCHAR(64) NOT NULL,
+    PRIMARY KEY(id)
+);
